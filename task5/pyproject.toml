@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "task4-substitute"
+version = "0.1.0"
+description = ""
+authors = ["yhyun <yhyun@autocrypt.io>"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.3.1"
+httpx = "^0.24.0"
+fastapi = "^0.95.1"
+pydantic = "^1.10.7"
+sqlalchemy = "^2.0.12"
+uvicorn = "^0.22.0"
+jsonschema = "^4.17.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
